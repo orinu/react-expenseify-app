@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shold render EpenseList with empty message 1`] = `
+<div>
+  <p>
+    No expenses
+  </p>
+</div>
+`;
+
+exports[`Shold render EpenseList wtih expenses 1`] = `
+<div>
+  <ExspenseListItem
+    amount={196}
+    createdAt={0}
+    description="Gum"
+    id="1"
+    key="1"
+    note=""
+  />
+  <ExspenseListItem
+    amount={1000}
+    createdAt={-345600000}
+    description="Rent"
+    id="2"
+    key="2"
+    note=""
+  />
+  <ExspenseListItem
+    amount={2000}
+    createdAt={345600000}
+    description="CreditCard"
+    id="3"
+    key="3"
+    note=""
+  />
+</div>
+`;
