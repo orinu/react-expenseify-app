@@ -67,3 +67,18 @@ export { firebase, database as default }
 //     console.log('Things get wrong. ' ,e)
 // });
 
+
+// // database.ref('expenses')
+// //   .once('value')
+// //   .then((snapshot) => {
+// //     const expenses = [];
+
+// //     snapshot.forEach((childSnapshot) => {
+// //       expenses.push({
+// //         id: childSnapshot.key,
+// //         ...childSnapshot.val()
+// //       });
+// //     });
+
+// //     console.log(expenses);
+// //   });
